@@ -1,1 +1,91 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 60px;
+  background-color: aquamarine;
+}
 
+.Title {
+  padding-bottom: 8px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #50536b;
+}
+
+.Scene {
+  width: 100%;
+  height: 600px;
+  margin-top: 24px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: khaki;
+}
+
+.Chunk-A {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 87px;
+  height: 34px;
+  transform: rotateX(-35deg) rotateY(45deg);
+}
+
+.Chunk-A div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-A-Front {
+  width: 87px;
+  height: 34px;
+  background-color: #ffffccdd;
+  transform: translateZ(2.5px);
+}
+
+.Chunk-A-Back {
+  width: 87px;
+  height: 34px;
+  background-color: #ffccccdd;
+  transform: rotateY(180deg) translateZ(2.5px);
+}
+
+.Chunk-A-Right {
+  width: 5px;
+  height: 34px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(84.5px);
+}
+
+.Chunk-A-Left {
+  width: 5px;
+  height: 34px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(2.5px);
+}
+
+.Chunk-A-Top {
+  width: 87px;
+  height: 5px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(2.5px);
+}
+
+.Chunk-A-Bottom {
+  width: 87px;
+  height: 5px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(31.5px);
+}
