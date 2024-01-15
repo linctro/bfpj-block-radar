@@ -19,27 +19,45 @@
   font-size: 16px;
 }
 
+.swiper-slide {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999999;
+}
+
+.swiper-slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 footer {
   display: flex;
   justify-content: center;
+  font-family: sans-serif;
+  font-size: 8px;
   color: #50536b;
 }
 
 .Scene {
   width: 100%;
-  height: 600px;
-  margin-top: 24px;
+  height: 570px;
+  padding-top: 200px;
+  padding-left: 10px;
+  margin-top: 25px;
   margin-left: 2%;
   margin-right: 2%;
-  background-color: khaki;
+  /*background-color: ;*/
 }
 
 /*A*/
 .Chunk-A {
   position: relative;
   transform-style: preserve-3d;
-  width: 87px;
-  height: 34px;
+  width: 174px;
+  height: 68px;
   transform: rotateX(-35deg) rotateY(45deg);
 }
 
@@ -51,56 +69,57 @@ footer {
 
 .Chunk-A-Front {
   display: grid;
-  grid-template-columns: 11px 1fr 1fr 1fr 1fr 11px;
-  grid-template-rows: reperts(5, 6.8px);
-  width: 87px;
-  height: 34px;
+  grid-template-columns: 22px 1fr 1fr 1fr 1fr 22px;
+  grid-template-rows: reperts(5, 13.6px);
+  width: 174px;
+  height: 68px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-A-Back {
-  width: 87px;
-  height: 34px;
+  width: 174px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-A-Right {
-  width: 5px;
-  height: 34px;
+  width: 10px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(84.5px);
+  transform: rotateY(90deg) translateZ(169px);
 }
 
 .Chunk-A-Left {
-  width: 5px;
-  height: 34px;
+  width: 10px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-A-Top {
-  width: 87px;
-  height: 5px;
+  width: 174px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-A-Bottom {
-  width: 87px;
+  width: 174px;
   height: 5px;
   background-color: #ccffccdd;
-  transform: rotateX(-90deg) translateZ(31.5px);
+  transform: rotateX(-90deg) translateZ(63px);
 }
 
 /*B*/
 .Chunk-B {
   position: relative;
   transform-style: preserve-3d;
-  width: 20px;
-  height: 34px;
-  transform: translate(13px, -12.5px) rotateX(-35deg) rotateY(-45deg);
+  width: 40px;
+  height: 68px;
+  transform: translate(13.5px, -25px) rotateX(-35deg) rotateY(-45deg);
+  opacity: 1;
 }
 
 .Chunk-B div {
@@ -111,45 +130,45 @@ footer {
 
 .Chunk-B-Front {
   display: grid;
-  grid-template-columns: 6px 14px;
-  grid-template-rows: reperts(5, 6.8px);
-  width: 20px;
-  height: 34px;
+  grid-template-columns: 12px 28px;
+  grid-template-rows: reperts(5, 13.6px);
+  width: 40px;
+  height: 68px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-B-Back {
-  width: 20px;
-  height: 34px;
+  width: 40px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-B-Right {
-  width: 5px;
-  height: 34px;
+  width: 10px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(17.5px);
+  transform: rotateY(90deg) translateZ(35px);
 }
 
 .Chunk-B-Left {
-  width: 5px;
-  height: 34px;
+  width: 10px;
+  height: 68px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-B-Top {
-  width: 20px;
-  height: 5px;
+  width: 40px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-B-Bottom {
-  width: 20px;
-  height: 5px;
+  width: 40px;
+  height: 10px;
   background-color: #ccffccdd;
   transform: rotateX(-90deg) translateZ(31.5px);
 }
@@ -158,9 +177,9 @@ footer {
 .Chunk-C {
   position: relative;
   transform-style: preserve-3d;
-  width: 110px;
-  height: 13px;
-  transform: translate(14px, -1.5px) rotateX(-35deg) rotateY(-45deg);
+  width: 220px;
+  height: 27.2px;
+  transform: translate(15.5px, -3.5px) rotateX(-35deg) rotateY(-45deg);
 }
 
 .Chunk-C div {
@@ -171,55 +190,57 @@ footer {
 
 .Chunk-C-Front {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 5.5px;
-  grid-template-rows: reperts(2, 6.8px);
-  width: 110px;
-  height: 13.6px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 11px;
+  grid-template-rows: reperts(2, 13.6px);
+  width: 220px;
+  height: 27.2px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-C-Back {
-  width: 110px;
-  height: 13.6px;
+  width: 220px;
+  height: 27.2px;
   background-color: #ffccccdd;
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-C-Right {
-  width: 5px;
-  height: 13.6px;
+  width: 10px;
+  height: 27.2px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(107.5px);
+  transform: rotateY(90deg) translateZ(215px);
 }
 
 .Chunk-C-Left {
-  width: 5px;
-  height: 13.6px;
+  width: 10px;
+  height: 27.2px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-C-Top {
-  width: 110px;
-  height: 5px;
+  width: 220px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-C-Bottom {
-  width: 110px;
-  height: 5px;
+  width: 220px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(-90deg) translateZ(11.1px);
+  transform: rotateX(-90deg) translateZ(22.2px);
 }
+
 /*D*/
 .Chunk-D {
   position: relative;
   transform-style: preserve-3d;
-  width: 16px;
-  height: 20.4px;
-  transform: translate(27.5px, -51px) rotateX(-35deg) rotateY(-45deg);
+  width: 32px;
+  height: 40.8px;
+  transform: translate(43px, -103px) rotateX(-35deg) rotateY(-45deg);
+  opacity: 1;
 }
 
 .Chunk-D div {
@@ -230,56 +251,56 @@ footer {
 
 .Chunk-D-Front {
   display: grid;
-  grid-template-columns: 11px 5px;
-  grid-template-rows: reperts(3, 6.8px);
-  width: 16px;
-  height: 20.4px;
+  grid-template-columns: 22px 10px;
+  grid-template-rows: reperts(3, 13.6px);
+  width: 32px;
+  height: 40.8px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-D-Back {
-  width: 16px;
-  height: 20.4px;
+  width: 32px;
+  height: 40.8px;
   background-color: #ffccccdd;
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-D-Right {
-  width: 5px;
-  height: 20.4px;
+  width: 10px;
+  height: 40.8px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(13.5px);
+  transform: rotateY(90deg) translateZ(27px);
 }
 
 .Chunk-D-Left {
-  width: 5px;
-  height: 20.4px;
+  width: 10px;
+  height: 40.8px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-D-Top {
-  width: 16px;
-  height: 5px;
+  width: 32px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-D-Bottom {
-  width: 16px;
-  height: 5px;
+  width: 32px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(-90deg) translateZ(17.9px);
+  transform: rotateX(-90deg) translateZ(35.8px);
 }
 
 /*E*/
 .Chunk-E {
   position: relative;
   transform-style: preserve-3d;
-  width: 45px;
-  height: 13.6px;
-  transform: translate(101px, -20px) rotateX(-35deg) rotateY(45deg);
+  width: 90px;
+  height: 27.2px;
+  transform: translate(190px, -41px) rotateX(-35deg) rotateY(45deg);
 }
 
 .Chunk-E div {
@@ -290,56 +311,56 @@ footer {
 
 .Chunk-E-Front {
   display: grid;
-  grid-template-columns: 1fr 1fr 13.5px;
-  grid-template-rows: reperts(2, 6.8px);
-  width: 45px;
-  height: 13.6px;
+  grid-template-columns: 1fr 1fr 27px;
+  grid-template-rows: reperts(2, 13.6px);
+  width: 90px;
+  height: 27.2px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-E-Back {
-  width: 45px;
-  height: 13.6px;
+  width: 90px;
+  height: 27.2px;
   /*background-color: #ffccccdd;*/
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-E-Right {
-  width: 5px;
-  height: 13.6px;
+  width: 10px;
+  height: 27.2px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(42.5px);
+  transform: rotateY(90deg) translateZ(85px);
 }
 
 .Chunk-E-Left {
-  width: 5px;
-  height: 13.6px;
+  width: 10px;
+  height: 27.2px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-E-Top {
-  width: 45px;
-  height: 5px;
+  width: 90px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-E-Bottom {
-  width: 45px;
-  height: 5px;
+  width: 90px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(-90deg) translateZ(11.1px);
+  transform: rotateX(-90deg) translateZ(22.2px);
 }
 
 /*F*/
 .Chunk-F {
   position: relative;
   transform-style: preserve-3d;
-  width: 101.5px;
-  height: 20.4px;
-  transform: translate(124.8px, -20.6px) rotateX(-35deg) rotateY(-45deg);
+  width: 203px;
+  height: 40.8px;
+  transform: translate(237px, -42.5px) rotateX(-35deg) rotateY(-45deg);
 }
 
 .Chunk-F div {
@@ -350,47 +371,529 @@ footer {
 
 .Chunk-F-Front {
   display: grid;
-  grid-template-columns: 9.5px 1fr 1fr 1fr 1fr 1fr 1fr 9.5px;
-  grid-template-rows: reperts(3, 6.8px);
-  width: 101.5px;
-  height: 20.4px;
+  grid-template-columns: 19px 1fr 1fr 1fr 1fr 1fr 1fr 19px;
+  grid-template-rows: reperts(3, 13.6px);
+  width: 203px;
+  height: 40.8px;
   background-color: #ffffccdd;
-  transform: translateZ(2.5px);
+  transform: translateZ(5px);
 }
 
 .Chunk-F-Back {
-  width: 101.5px;
-  height: 20.4px;
+  width: 203px;
+  height: 40.8px;
   /*background-color: #ffccccdd;*/
-  transform: rotateY(180deg) translateZ(2.5px);
+  transform: rotateY(180deg) translateZ(5px);
 }
 
 .Chunk-F-Right {
-  width: 5px;
-  height: 20.4px;
+  width: 10px;
+  height: 40.8px;
   background-color: #ffccccdd;
-  transform: rotateY(90deg) translateZ(99px);
+  transform: rotateY(90deg) translateZ(198px);
 }
 
 .Chunk-F-Left {
-  width: 5px;
-  height: 20.4px;
+  width: 10px;
+  height: 40.8px;
   background-color: #ffccccdd;
-  transform: rotateY(-90deg) translateZ(2.5px);
+  transform: rotateY(-90deg) translateZ(5px);
 }
 
 .Chunk-F-Top {
-  width: 101.5px;
-  height: 5px;
+  width: 203px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(90deg) translateZ(2.5px);
+  transform: rotateX(90deg) translateZ(5px);
 }
 
 .Chunk-F-Bottom {
-  width: 101.5px;
-  height: 5px;
+  width: 203px;
+  height: 10px;
   background-color: #ccffccdd;
-  transform: rotateX(-90deg) translateZ(17.9px);
+  transform: rotateX(-90deg) translateZ(35.8px);
+}
+
+/*H*/
+.Chunk-H {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 459px;
+  height: 68px;
+  transform: translate(131px, -371.5px) rotateX(-35deg) rotateY(45deg);
+}
+
+.Chunk-H div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-H-Front {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 22px;
+  grid-template-rows: reperts(5, 13.6px);
+  width: 459px;
+  height: 68px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-H-Back {
+  width: 459px;
+  height: 68px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-H-Right {
+  width: 10px;
+  height: 68px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(454px);
+}
+
+.Chunk-H-Left {
+  width: 10px;
+  height: 68px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-H-Top {
+  width: 459px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-H-Bottom {
+  width: 459px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(63px);
+}
+
+/*G*/
+.Chunk-G {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 71px;
+  height: 68px;
+  transform: translate(138px, -356.8px) rotateX(-35deg) rotateY(-45deg);
+}
+
+.Chunk-G div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-G-Front {
+  display: grid;
+  grid-template-columns: 10px 1fr 23px 10px;
+  grid-template-rows: reperts(5, 13.6px);
+  width: 71px;
+  height: 68px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-G-Back {
+  width: 71px;
+  height: 68px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-G-Right {
+  width: 10px;
+  height: 68px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(66px);
+}
+
+.Chunk-G-Left {
+  width: 10px;
+  height: 68px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-G-Top {
+  width: 71px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-G-Bottom {
+  width: 71px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(63px);
+}
+
+/*I*/
+.Chunk-I {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 199px;
+  height: 27.2px;
+  transform: translate(493px, -519px) rotateX(-35deg) rotateY(-45deg);
+}
+
+.Chunk-I div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-I-Front {
+  display: grid;
+  grid-template-columns: 11px 1fr 1fr 1fr 1fr 1fr 1fr 16px;
+  grid-template-rows: reperts(2, 13.6px);
+  width: 199px;
+  height: 27.2px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-I-Back {
+  width: 199px;
+  height: 27.2px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-I-Right {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(194px);
+}
+
+.Chunk-I-Left {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-I-Top {
+  width: 199px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-I-Bottom {
+  width: 199px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(22.2px);
+}
+
+/*J*/
+.Chunk-J {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 21px;
+  height: 27.2px;
+  transform: translate(652px, -502px) rotateX(-35deg) rotateY(45deg);
+}
+
+.Chunk-J div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-J-Front {
+  display: grid;
+  grid-template-columns: 21px;
+  grid-template-rows: reperts(2, 13.6px);
+  width: 21px;
+  height: 27.2px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-J-Back {
+  width: 21px;
+  height: 27.2px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-J-Right {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(16px);
+}
+
+.Chunk-J-Left {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-J-Top {
+  width: 21px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-J-Bottom {
+  width: 21px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(22.2px);
+}
+
+/*K*/
+.Chunk-K {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 145px;
+  height: 27.2px;
+  transform: translate(417px, -445.5px) rotateX(-35deg) rotateY(45deg);
+}
+
+.Chunk-K div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-K-Front {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 8px;
+  grid-template-rows: reperts(2, 13.6px);
+  width: 145px;
+  height: 27.2px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-K-Back {
+  width: 145px;
+  height: 27.2px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-K-Right {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(140px);
+}
+
+.Chunk-K-Left {
+  width: 10px;
+  height: 27.2px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-K-Top {
+  width: 145px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-K-Bottom {
+  width: 145px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(22.2px);
+}
+
+/*L-Begin*/
+.Chunk-L-Begin {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 57px;
+  height: 40.8px;
+  transform: translate(422.5px, -433px) rotateX(-35deg) rotateY(-45deg);
+  opacity: 1;
+}
+
+.Chunk-L-Begin div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-L-Begin-Front {
+  display: grid;
+  grid-template-columns: 11px 18px 28px;
+  grid-template-rows: reperts(3, 13.6px);
+  width: 57px;
+  height: 40.8px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-L-Begin-Back {
+  width: 57px;
+  height: 40.8px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-L-Begin-Right {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(52px);
+}
+
+.Chunk-L-Begin-Left {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-L-Begin-Top {
+  width: 57px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-L-Begin-Bottom {
+  width: 57px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(35.8px);
+}
+
+/*L*/
+.Chunk-L {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 157px;
+  height: 40.8px;
+  transform: translate(448px, -430.5px) rotateX(-35deg) rotateY(-45deg);
+}
+
+.Chunk-L div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-L-Front {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 18px;
+  grid-template-rows: reperts(3, 13.6px);
+  width: 157px;
+  height: 40.8px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-L-Back {
+  width: 157px;
+  height: 40.8px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-L-Right {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(152px);
+}
+
+.Chunk-L-Left {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-L-Top {
+  width: 157px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-L-Bottom {
+  width: 157px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(35.8px);
+}
+
+/*M*/
+.Chunk-M {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 253px;
+  height: 40.8px;
+  transform: translate(373px, -388.5px) rotateX(-35deg) rotateY(45deg);
+  opacity: 1;
+}
+
+.Chunk-M div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 0.5px solid #000;
+}
+
+.Chunk-M-Front {
+  display: grid;
+  grid-template-columns: 17px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 18px;
+  grid-template-rows: reperts(3, 13.6px);
+  width: 253px;
+  height: 40.8px;
+  background-color: #ffffccdd;
+  transform: translateZ(5px);
+}
+
+.Chunk-M-Back {
+  width: 253px;
+  height: 40.8px;
+  /*background-color: #ffccccdd;*/
+  transform: rotateY(180deg) translateZ(5px);
+}
+
+.Chunk-M-Right {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(90deg) translateZ(248px);
+}
+
+.Chunk-M-Left {
+  width: 10px;
+  height: 40.8px;
+  background-color: #ffccccdd;
+  transform: rotateY(-90deg) translateZ(5px);
+}
+
+.Chunk-M-Top {
+  width: 253px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(90deg) translateZ(5px);
+}
+
+.Chunk-M-Bottom {
+  width: 253px;
+  height: 10px;
+  background-color: #ccffccdd;
+  transform: rotateX(-90deg) translateZ(35.8px);
 }
 
 .Block-Style {
@@ -398,7 +901,8 @@ footer {
   justify-content: center;
   align-items: center;
   border: 0.3px solid #000;
-  font-size: 3px;
+  font-size: 8px;
+  font-weight: bolder;
 }
 
 .form {
@@ -406,11 +910,21 @@ footer {
   width: 80%;
   height: 150px;
   border-radius: 15px;
-  background-color: #cefdef;
+  background: linear-gradient(to right, #dce2e4, #cefdef);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.Form-Input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.Form-Input-Style {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .Label-Comment {
@@ -423,44 +937,167 @@ footer {
   margin: 3px;
   font-size: 21px;
   padding: 0 16px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 0 0 0 1px #ccc inset;
-    zoom: 1.2;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 1px #ccc inset;
+  zoom: 1.2;
 }
 
 input:focusout {
   zoom: 0.1;
 }
 
-.Buttons {
-  width: 100px;
+button {
+  width: 88px;
+  height: 88px;
   margin: 5px;
+  padding-top: 25px;
   display: flex;
   justify-content: center;
-  border: 2px solid black;
-  border-radius: 50px;
+  border: 3.5px solid #2b3a75;
+  border-radius: 50%;
+  color: #2b3a75;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
 }
 
-.resetButton {
+.Block-Set-Button {
   width: 100px;
+  height: auto;
+  margin-top: 3px;
+  font-size: 21px;
+  padding: 0 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 0 1px #2b3a75 inset;
+}
+
+.switchArea {
+  line-height: 60px;
+  /* 1行の高さ          */
+  letter-spacing: 0;
+  /* 文字間             */
+  text-align: center;
+  /* 文字位置は中央     */
+  font-size: 26px;
+  /* 文字サイズ         */
+  font-family: sans-serif;
+  font-weight: bold;
+
+  position: relative;
+  /* 親要素が基点       */
   margin: 5px;
-  display: flex;
-  justify-content: center;
-  border: 2px solid black;
-  border-radius: 50px;
+  /* 中央寄せ           */
+  width: 120px;
+  /* ボタンの横幅       */
+}
+
+/* === チェックボックス ==================================== */
+.switchArea input[type="checkbox"] {
+  display: none;
+  /* チェックボックス非表示 */
+}
+
+/* === チェックボックスのラベル（標準） ==================== */
+.switchArea label {
+  display: block;
+  /* ボックス要素に変更 */
+  box-sizing: border-box;
+  /* 枠線を含んだサイズ */
+  height: 60px;
+  /* ボタンの高さ       */
+  border: 3.5px solid #999999;
+  /* 未選択タブのの枠線 */
+  border-radius: 30px;
+  /* 角丸               */
+}
+
+/* === チェックボックスのラベル（ONのとき） ================ */
+.switchArea input[type="checkbox"]:checked+label {
+  border-color: #2b3a75;
+  /* 選択タブの枠線     */
+}
+
+/* === 表示する文字（標準） ================================ */
+.switchArea label span:after {
+  content: "OFF";
+  /* 表示する文字       */
+  padding: 0 0 0 36px;
+  /* 表示する位置       */
+  color: #999999;
+  /* 文字色             */
+}
+
+/* === 表示する文字（ONのとき） ============================ */
+.switchArea input[type="checkbox"]:checked+label span:after {
+  content: "ON";
+  /* 表示する文字       */
+  padding: 0 36px 0 0;
+  /* 表示する位置       */
+  color: #2b3a75;
+  /* 文字色             */
+}
+
+/* === 丸部分のSTYLE（標準） =============================== */
+.switchArea #swImg {
+  position: absolute;
+  /* 親要素からの相対位置*/
+  width: 48px;
+  /* 丸の横幅           */
+  height: 48px;
+  /* 丸の高さ           */
+  background: #999999;
+  /* カーソルタブの背景 */
+  top: 5.5px;
+  /* 親要素からの位置   */
+  left: 4.5px;
+  /* 親要素からの位置   */
+  border-radius: 26px;
+  /* 角丸               */
+  transition: .2s;
+  /* 滑らか変化         */
+}
+
+/* === 丸部分のSTYLE（ONのとき） =========================== */
+.switchArea input[type="checkbox"]:checked~#swImg {
+  transform: translateX(62px);
+  /* 丸も右へ移動       */
+  background: #2b3a75;
+  /* カーソルタブの背景 */
+}
+
+/*隠れるブロックを見えるように手前のブロックを透明にする*/
+.Opacity .Chunk-M {
+  opacity: 0.4;
+}
+
+.Opacity .Chunk-B {
+  opacity: 0.4;
+}
+
+.Opacity .Chunk-D {
+  opacity: 0.4;
+}
+
+.Opacity .Chunk-J {
+  opacity: 0.4;
+}
+
+.Opacity .Chunk-L-Begin {
+  opacity: 0.4;
 }
 
 .brown {
-  background-color: #978455;
+  background-color: #bfa250;
 }
 
-.gray {
-  background-color: #c1c3c2;
+.turquoise {
+  background-color: #01728b;
 }
 
 .green {
-  background-color: #72cac4;
+  background-color: #63d0df;
 }
 
 .yellow {
@@ -469,4 +1106,16 @@ input:focusout {
 
 .yellow-after {
   background-color: #f7f1a2;
+}
+
+.red {
+  background-color: #ed447d;
+}
+
+.red-after {
+  background-color: #ee5f8f;
+}
+
+.rainbow {
+  background: linear-gradient(to right, #fa5a54, #faf454, #edc0fa, #01728b);
 }
