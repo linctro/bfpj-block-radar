@@ -928,15 +928,15 @@ footer {
 }
 
 .Label-Comment {
-  font-size: 16px;
-  margin: 4px;
+  font-size: 12px;
+  margin: 3px;
 }
 
 .Input {
-  width: 90px;
+  width: 70px;
   margin: 3px;
-  font-size: 16px;
-  padding: 0 16px;
+  font-size: 12px;
+  padding: 0 14px;
   border-radius: 4px;
   border: none;
   box-shadow: 0 0 0 1px #ccc inset;
@@ -948,8 +948,8 @@ input:focusout {
 }
 
 button {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
   margin: 5px;
   padding-top: 22px;
   display: flex;
@@ -959,14 +959,14 @@ button {
   color: #2b3a75;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .Block-Set-Button {
   width: 100px;
   height: auto;
   margin-top: 3px;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 20px;
   border-radius: 20px;
   border: none;
