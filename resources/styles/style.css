@@ -928,14 +928,14 @@ footer {
 }
 
 .Label-Comment {
-  font-size: 18px;
+  font-size: 16px;
   margin: 4px;
 }
 
 .Input {
   width: 90px;
   margin: 3px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 16px;
   border-radius: 4px;
   border: none;
@@ -948,8 +948,8 @@ input:focusout {
 }
 
 button {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   margin: 5px;
   padding-top: 22px;
   display: flex;
@@ -966,7 +966,7 @@ button {
   width: 100px;
   height: auto;
   margin-top: 3px;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 20px;
   border-radius: 20px;
   border: none;
