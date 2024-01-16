@@ -59,6 +59,7 @@ footer {
   width: 174px;
   height: 68px;
   transform: rotateX(-35deg) rotateY(45deg);
+  z-index: 10;
 }
 
 .Chunk-A div {
@@ -120,6 +121,7 @@ footer {
   height: 68px;
   transform: translate(13.5px, -25px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
+  z-index: 20;
 }
 
 .Chunk-B div {
@@ -180,6 +182,7 @@ footer {
   width: 220px;
   height: 27.2px;
   transform: translate(15.5px, -3.5px) rotateX(-35deg) rotateY(-45deg);
+  z-index: 30;
 }
 
 .Chunk-C div {
@@ -241,6 +244,7 @@ footer {
   height: 40.8px;
   transform: translate(43px, -103px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
+  z-index: 40;
 }
 
 .Chunk-D div {
@@ -301,6 +305,7 @@ footer {
   width: 90px;
   height: 27.2px;
   transform: translate(190px, -41px) rotateX(-35deg) rotateY(45deg);
+  z-index: 50;
 }
 
 .Chunk-E div {
@@ -361,6 +366,7 @@ footer {
   width: 203px;
   height: 40.8px;
   transform: translate(237px, -42.5px) rotateX(-35deg) rotateY(-45deg);
+  z-index: 60;
 }
 
 .Chunk-F div {
@@ -421,6 +427,7 @@ footer {
   width: 459px;
   height: 68px;
   transform: translate(131px, -371.5px) rotateX(-35deg) rotateY(45deg);
+  z-index: 70;
 }
 
 .Chunk-H div {
@@ -437,6 +444,7 @@ footer {
   height: 68px;
   background-color: #ffffccdd;
   transform: translateZ(5px);
+  z-index: 80;
 }
 
 .Chunk-H-Back {
@@ -481,6 +489,7 @@ footer {
   width: 71px;
   height: 68px;
   transform: translate(138px, -356.8px) rotateX(-35deg) rotateY(-45deg);
+  z-index: 90;
 }
 
 .Chunk-G div {
@@ -541,6 +550,7 @@ footer {
   width: 199px;
   height: 27.2px;
   transform: translate(493px, -519px) rotateX(-35deg) rotateY(-45deg);
+  z-index: 100;
 }
 
 .Chunk-I div {
@@ -601,6 +611,7 @@ footer {
   width: 21px;
   height: 27.2px;
   transform: translate(652px, -502px) rotateX(-35deg) rotateY(45deg);
+  z-index: 110;
 }
 
 .Chunk-J div {
@@ -661,6 +672,7 @@ footer {
   width: 145px;
   height: 27.2px;
   transform: translate(417px, -445.5px) rotateX(-35deg) rotateY(45deg);
+  z-index: 120;
 }
 
 .Chunk-K div {
@@ -722,6 +734,7 @@ footer {
   height: 40.8px;
   transform: translate(422.5px, -433px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
+  z-index: 130;
 }
 
 .Chunk-L-Begin div {
@@ -782,6 +795,7 @@ footer {
   width: 157px;
   height: 40.8px;
   transform: translate(448px, -430.5px) rotateX(-35deg) rotateY(-45deg);
+  z-index: 140;
 }
 
 .Chunk-L div {
@@ -843,6 +857,7 @@ footer {
   height: 40.8px;
   transform: translate(373px, -388.5px) rotateX(-35deg) rotateY(45deg);
   opacity: 1;
+  z-index: 150;
 }
 
 .Chunk-M div {
