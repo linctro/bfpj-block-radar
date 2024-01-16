@@ -20,7 +20,7 @@
 }
 
 .swiper-slide {
-  height: 160px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
 
 .swiper-slide-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
 }
 
