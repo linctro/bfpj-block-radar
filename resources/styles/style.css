@@ -58,7 +58,7 @@ footer {
   transform-style: preserve-3d;
   width: 174px;
   height: 68px;
-  transform: translate3d(0,0,0) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(0, 0, 0) rotateX(-35deg) rotateY(45deg);
   z-index: 10;
 }
 
@@ -119,7 +119,7 @@ footer {
   transform-style: preserve-3d;
   width: 40px;
   height: 68px;
-  transform: translate3d(13.5px, -25px, 1px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(13.5px, -25px, 60px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
   z-index: 20;
 }
@@ -181,7 +181,7 @@ footer {
   transform-style: preserve-3d;
   width: 220px;
   height: 27.2px;
-  transform: translate3d(15.5px, -3.5px, 2px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(15.5px, -3.5px, 125px) rotateX(-35deg) rotateY(-45deg);
   z-index: 30;
 }
 
@@ -242,7 +242,7 @@ footer {
   transform-style: preserve-3d;
   width: 32px;
   height: 40.8px;
-  transform: translate3d(43px, -103px, 3px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(43px, -103px, 125px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
   z-index: 40;
 }
@@ -304,7 +304,7 @@ footer {
   transform-style: preserve-3d;
   width: 90px;
   height: 27.2px;
-  transform: translate(190px, -41px) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(190px, -41px, 170px) rotateX(-35deg) rotateY(45deg);
   z-index: 50;
 }
 
@@ -365,7 +365,7 @@ footer {
   transform-style: preserve-3d;
   width: 203px;
   height: 40.8px;
-  transform: translate(237px, -42.5px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(237px, -42.5px, 210px) rotateX(-35deg) rotateY(-45deg);
   z-index: 60;
 }
 
@@ -426,7 +426,7 @@ footer {
   transform-style: preserve-3d;
   width: 459px;
   height: 68px;
-  transform: translate(131px, -371.5px) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(131px, -371.5px, 120px) rotateX(-35deg) rotateY(45deg);
   z-index: 70;
 }
 
@@ -610,7 +610,7 @@ footer {
   transform-style: preserve-3d;
   width: 21px;
   height: 27.2px;
-  transform: translate(652px, -502px) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(652px, -502px, 70px) rotateX(-35deg) rotateY(45deg);
   z-index: 110;
 }
 
@@ -671,7 +671,7 @@ footer {
   transform-style: preserve-3d;
   width: 145px;
   height: 27.2px;
-  transform: translate(417px, -445.5px) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(417px, -445.5px, -40px) rotateX(-35deg) rotateY(45deg);
   z-index: 120;
 }
 
@@ -732,7 +732,7 @@ footer {
   transform-style: preserve-3d;
   width: 57px;
   height: 40.8px;
-  transform: translate(422.5px, -433px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(422.5px, -433px, 20px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
   z-index: 130;
 }
@@ -794,7 +794,7 @@ footer {
   transform-style: preserve-3d;
   width: 157px;
   height: 40.8px;
-  transform: translate(448px, -430.5px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(448px, -430.5px, 90px) rotateX(-35deg) rotateY(-45deg);
   z-index: 140;
 }
 
@@ -855,7 +855,7 @@ footer {
   transform-style: preserve-3d;
   width: 253px;
   height: 40.8px;
-  transform: translate(373px, -388.5px) rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(373px, -388.5px, 210px) rotateX(-35deg) rotateY(45deg);
   opacity: 1;
   z-index: 150;
 }
