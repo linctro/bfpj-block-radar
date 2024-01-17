@@ -4,11 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Conpatible" content="IE=edge" />
+
   <meta name="viewport" content="width=device-width, initial-scale=0.6">
+
   <title>Block Radar</title>
   <link rel="stylesheet" href="./resources/styles/destyle.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./resources/styles/style.css" />
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const elements = document.querySelectorAll("*");
+
+      for (const element of elements) {
+        document.body.appendChild(element);
+      }
+    });
+  </script>
 </head>
 
 <body>
