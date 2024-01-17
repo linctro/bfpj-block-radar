@@ -58,7 +58,7 @@ footer {
   transform-style: preserve-3d;
   width: 174px;
   height: 68px;
-  transform: rotateX(-35deg) rotateY(45deg);
+  transform: translate3d(0,0,0) rotateX(-35deg) rotateY(45deg);
   z-index: 10;
 }
 
@@ -119,7 +119,7 @@ footer {
   transform-style: preserve-3d;
   width: 40px;
   height: 68px;
-  transform: translate(13.5px, -25px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(13.5px, -25px, 1px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
   z-index: 20;
 }
@@ -181,7 +181,7 @@ footer {
   transform-style: preserve-3d;
   width: 220px;
   height: 27.2px;
-  transform: translate(15.5px, -3.5px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(15.5px, -3.5px, 2px) rotateX(-35deg) rotateY(-45deg);
   z-index: 30;
 }
 
@@ -242,7 +242,7 @@ footer {
   transform-style: preserve-3d;
   width: 32px;
   height: 40.8px;
-  transform: translate(43px, -103px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(43px, -103px, 3px) rotateX(-35deg) rotateY(-45deg);
   opacity: 1;
   z-index: 40;
 }
