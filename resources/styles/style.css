@@ -488,7 +488,7 @@ footer {
   transform-style: preserve-3d;
   width: 71px;
   height: 68px;
-  transform: translate(138px, -356.8px) rotateX(-35deg) rotateY(-45deg);
+  transform: translate3d(138px, -356.8px, 240px) rotateX(-35deg) rotateY(-45deg);
   z-index: 90;
 }
 
