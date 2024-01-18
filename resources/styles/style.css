@@ -20,17 +20,25 @@
 }
 
 .swiper-slide {
-  width: 100%;
+  width: 90%;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #999999;
 }
 
+.swiper-content {
+  border-radius: 15px;
+}
+
 .swiper-slide-image {
-  width: auto;
+  width: 100%;
+  padding-top: 0%;
+  border-radius: 15px;
+ /* width: auto;
   height: 100%;
-  object-fit: contain;
+  object-fit: contain;*/
 }
 
 footer {
